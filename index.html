@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Hii")
+        var btn=document.createElement("button");
+        btn.innerHTML="Click Meh";
+        btn.addEventListener("click",fn);
+        document.body.append(btn);
+
+
+        function fn(){
+            var sp=document.createElement("span");
+            sp.innerHTML="Welcome to guvi <br>" ;
+            sp.style.color="blue";
+            sp.style.fontSize="20px";
+            document.body.append(sp);
+        }
+    </script>
+</body>
+</html>
